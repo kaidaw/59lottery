@@ -117,7 +117,6 @@ function playClickHandler(lotteryObject) {
 }
 
 function render(lotteryObject) {
-  console.log(played);
   let scoreContainer = document.getElementById("scoreContainer");
   let container = document.getElementById("holder");
   let ballHolder = document.createElement("div");
