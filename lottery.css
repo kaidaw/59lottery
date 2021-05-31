@@ -1,0 +1,127 @@
+.selected {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+  background: radial-gradient(circle at 10px 10px, white, rgb(0, 85, 0));
+}
+.winner {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  border: 1px solid darkgrey;
+  background: radial-gradient(circle at 10px 10px, white, rgb(187, 187, 0));
+}
+.unselected {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  border: 1px solid darkgrey;
+  background: radial-gradient(circle at 10px 10px, pink, rgb(131, 0, 0));
+}
+.play {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 10px 10px, rgb(59, 59, 59), black);
+  color: white;
+  border: 1px solid darkgrey;
+}
+.holder {
+  margin: auto;
+  width: 350px;
+}
+.holderTwo {
+  margin: auto;
+  width: 144px;
+}
+.divider {
+  width: 70px;
+  margin: auto;
+  height: 35px;
+}
+
+.random {
+  margin: auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 10px 10px, rgb(59, 59, 59), black);
+  color: white;
+  border: 1px solid darkgrey;
+}
+.reset {
+  margin: auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 10px 10px, rgb(59, 59, 59), black);
+  color: white;
+  border: 1px solid darkgrey;
+}
+.title {
+  font-style: bold;
+  display: flex;
+  color: lightgrey;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Helvetica, sans-serif;
+  width: 60%;
+  height: 100%;
+
+  font-size: 50;
+  background: radial-gradient(circle at 10px 10px, grey, rgb(59, 59, 59));
+}
+.instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: lightgrey;
+  width: 30%;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, Helvetica, sans-serif;
+  font-size: 15;
+  background: radial-gradient(circle at 10px 10px, grey, rgb(59, 59, 59));
+}
+.scoreContainer {
+  margin: auto;
+  width: 105px;
+  height: 250px;
+}
+.scores {
+  margin: auto;
+  width: 35px;
+}
+
+.message {
+  margin: auto;
+  margin-left: 17px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 10px 10px, rgb(59, 59, 59), black);
+  color: white;
+  border: 1px solid darkgrey;
+}
+.banner {
+  background-color: rgb(48, 48, 48);
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background: radial-gradient(
+    circle at 50px 50px,
+    rgb(226, 226, 226),
+    rgb(151, 151, 151)
+  );
+}
